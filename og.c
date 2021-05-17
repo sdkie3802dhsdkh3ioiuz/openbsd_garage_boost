@@ -43,7 +43,7 @@ int main() {
 	memset(&op, 0, sizeof(op));
 	op.gp_pin = DOOR_PIN;
 	op.gp_value = GPIO_PIN_HIGH;
-	ioctl(devfd, GPIOPINWRITE, &op):
+	ioctl(devfd, GPIOPINWRITE, &op);
 
 	/* Let time elapse. */
 	nanosleep(&timeout, NULL);
@@ -54,7 +54,7 @@ int main() {
 	memset(&op, 0, sizeof(op));
 	op.gp_pin = DOOR_PIN;
 	op.gp_value = GPIO_PIN_LOW;
-	ioctl(devfd, GPIOPINWRITE, &op):
+	ioctl(devfd, GPIOPINWRITE, &op);
 
 	return 0;
 }
