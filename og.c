@@ -24,7 +24,7 @@
 #include <string.h>
 #include <err.h>
 #include <sys/gpio.h>
-#include <sysioctl.h>
+#include <sys/ioctl.h>
 #include <fcntl.h>
 
 #define DOOR_PIN 23
