@@ -1,6 +1,9 @@
 # openbsd_garage_boost
 Briefly writes 1 to a Raspberry Pi digital pin to simulate pressing button on garage wall console
 
+WARNING!!! I am NOT an electrician. I personally use a relay in this project to connect
+to my garage wall console. Is this safe? I have ABSOLUTELY no idea. USE AT YOUR OWN RISK.
+
 In order to open a garage door, find the contacts on the back of your garage door wall console
 that correspond to pushing the button. Solder a lead to each. Test them -- if you touch
 the wires together very briefly, your garage door should open.
