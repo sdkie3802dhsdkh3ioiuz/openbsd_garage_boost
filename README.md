@@ -6,9 +6,16 @@ to my garage wall console. Is this safe? I have ABSOLUTELY no idea. USE AT YOUR 
 
 EXTRA WARNING!! All this does is simulate pressing your garage door's wall button by creating
 a momentary short. This short will also happen if your Raspberry Pi or other device loses
-power or reboots. I will experiment at some point to see if a UPS prevents opening in the
-power loss scenario. Preventing accidental openings might take some redesign. I will
-certainly give it a think.
+power or reboots. I have found even a cheap UPS can prevent accidental reboots that
+might otherwise occur due to power loss. Of course, this would not prevent a reboot
+due to failing hardware Soviet EMPs targeting your garage. All it takes to make
+the garage door open is a momentary short, so preventing every single momentary short
+except those for those induced programmatically might require a slightly different
+setup. As long as the all the wires are plugged into the relay, the system will
+be sensitive to momentay fluctuations, possibly opening the door at inopportune times.
+The problem might be that we're not being sufficiently realistic in our simulation of
+the button press -- maybe the program needs to look for a state change to the pin
+that lasts a bit longer, and then move a robot arm to press the button . . . . 
 
 In order to open a garage door, find the contacts on the back of your garage door wall console
 that correspond to pushing the button. Solder a lead to each. Test them -- if you touch
