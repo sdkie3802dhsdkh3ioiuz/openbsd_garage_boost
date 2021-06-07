@@ -8,7 +8,7 @@ EXTRA WARNING!! All this does is simulate pressing your garage door's wall butto
 a momentary short. This short will also happen if your Raspberry Pi or other device loses
 power or reboots. I have found even a cheap UPS can prevent accidental reboots that
 might otherwise occur due to power loss. Of course, this would not prevent a reboot
-due to failing hardware Soviet EMPs targeting your garage. All it takes to make
+due to failing hardware or Soviet EMPs targeting your garage. All it takes to make
 the garage door open is a momentary short, so preventing every single momentary short
 except those for those induced programmatically might require a slightly different
 setup. As long as the all the wires are plugged into the relay, the system will
