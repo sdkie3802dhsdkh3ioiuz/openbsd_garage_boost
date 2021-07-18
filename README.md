@@ -10,7 +10,7 @@ power or reboots. I have found even a cheap UPS can prevent accidental reboots t
 might otherwise occur due to power loss. Of course, this would not prevent a reboot
 due to failing hardware or Soviet EMPs targeting your garage. All it takes to make
 the garage door open is a momentary short, so preventing every single momentary short
-except those for those induced programmatically might require a slightly different
+except those induced programmatically might require a slightly different
 setup. As long as the all the wires are plugged into the relay, the system will
 be sensitive to momentay fluctuations, possibly opening the door at inopportune times.
 The problem might be that we're not being sufficiently realistic in our simulation of
